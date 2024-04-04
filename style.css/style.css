@@ -1,0 +1,15 @@
+body {
+  background-color: bisque;
+  font-family: "Butterfly Kids", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.app {
+  background: burlywood;
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: 0 30px 50px rgb(from color r g b);
+  border-radius: 10px;
+  padding: 30px;
+}
