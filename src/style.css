@@ -5,7 +5,7 @@ body {
   font-style: normal;
 }
 
-.app {
+.weather-app {
   background: burlywood;
   max-width: 600px;
   margin: 50px auto;
@@ -83,10 +83,11 @@ main {
 
 .weather-app-icon {
   font-size: 44px;
-  width: 80px
-  height: 90px
+  width: 80px;
+  height: 90px;
   margin-top: 22px;
 }
+
 .weather-app-unit {
   margin-top: 20px;
   font-size: 20px;
