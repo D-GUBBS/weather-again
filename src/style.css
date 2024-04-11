@@ -61,14 +61,14 @@ main {
 }
 
 .weather-app-details {
-  font-size: 16px;
-  line-height: 30px;
-  color: palevioletred;
+  font-size: 30px;
+  line-height: 40px;
+  color: rgb(47, 75, 2);
   font-weight: 500;
 }
 
 .weather-app-details strong {
-  color: palevioletred;
+  color: rgb(15, 4, 8);
 }
 
 .weather-app-temperature-container {
@@ -114,7 +114,7 @@ main {
 
 .weather-forecast-temperatures {
   text-align: center;
-  color: blue;
+  color: rgb(145, 145, 248);
   margin-top: 15px;
   justify-content: center;
 }
@@ -124,11 +124,11 @@ main {
 }
 
 .weather-forecast-temperature-max {
-  font-size: 30px;
+  font-size: 60px;
   opacity: 0.5;
 }
 
 .weather-forecast-temperature-min {
-  font-size: 16px;
+  font-size: 45px;
   color: darkslategrey;
 }
