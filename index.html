@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="scr/style.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Butterfly+Kids&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="src/" />
+    <link rel="stylesheet" href="scr/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <title>Duduziles app</title>
   </head>
@@ -48,19 +48,7 @@
             <div class="weather-app-unit">°C</div>
           </div>
         </div>
-        <div class="weather-forecast">
-          <div class="weather-forecast-day">
-            <div class="weather-forecast-date">Mon</div>
-            <div class="weather-forecast-icon" &#xF2B6></div>
-            <div class="weather-forecast-temperatures">
-              <span class="weather-forecast-temperature-max">32°C</span>
-              <span class="weather-app-temperature-min"
-                ><strong>23°C</strong>
-              </span>
-              <div class="weather-forecast-temperature"></div>
-            </div>
-          </div>
-        </div>
+        <div class="weather-forecast" id="forecast"></div>
       </main>
       <footer>
         This project is coded by
